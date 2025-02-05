@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- Este elemento hace que todos los enlaces se abran en una nueva ventana -->
+  <base target="_blank">
+  <title>IA a la Carta UNAD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* Reset y configuración global */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #555;
+    }
+    /* Cuadrícula de categorías */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .category {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .category:hover {
+      transform: translateY(-5px);
+    }
+    .category-header {
+      padding: 20px;
+      font-size: 1.25em;
+      font-weight: 600;
+      color: #fff;
+    }
+    .category-body {
+      padding: 20px;
+    }
+    .category-body ul {
+      list-style: none;
+    }
+    .category-body ul li {
+      margin-bottom: 10px;
+    }
+    .category-body ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    .category-body ul li a:hover {
+      color: #000;
+    }
+    /* Colores específicos para cada categoría */
+    .cat-1 { background-color: #007ACC; }
+    .cat-2 { background-color: #28A745; }
+    .cat-3 { background-color: #6C757D; }
+    .cat-4 { background-color: #FD7E14; }
+    .cat-5 { background-color: #FFC107; }
+    /* Nota al pie */
+    .footer-note {
+      font-size: 0.75em;
+      text-align: center;
+      color: #777;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>IA a la Carta UNAD</h1>
+      <p>Explora las cartas de ayuda para el uso de IA en la UNAD</p>
+    </header>
+    <div class="categories">
+      <!-- Categoría 1: Fundamentos de la IA en la Educación -->
+      <div class="category">
+        <div class="category-header cat-1">
+          1. Fundamentos de la IA en la Educación
+        </div>
+        <div class="category-body">
+          <ul>
+            <li><a href="1/1-1.html">1-1: ¿Qué es la inteligencia artificial y cómo funciona?</a></li>
+            <li><a href="1/1-2.html">1-2: Diferencias entre IA débil, fuerte y generativa.</a></li>
+            <li><a href="1/1-3.html">1-3: Introducción a herramientas de IA para la educación.</a></li>
+            <li><a href="1/1-4.html">1-4: Ética básica en el uso de IA.</a></li>
+            <li><a href="1/1-5.html">1-5: Sesgos en la IA y cómo evitarlos.</a></li>
+            <li><a href="1/1-6.html">1-6: Privacidad y protección de datos en el uso de IA.</a></li>
+            <li><a href="1/1-7.html">1-7: IA y accesibilidad en la educación virtual.</a></li>
+            <li><a href="1/1-8.html">1-8: Historia y evolución de la IA en la educación.</a></li>
+            <li><a href="1/1-9.html">1-9: Mitos y realidades sobre la IA.</a></li>
+            <li><a href="1/1-10.html">1-10: Lenguaje natural y modelos de lenguaje (como ChatGPT).</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Categoría 2: Aplicaciones Prácticas de la IA en los Cursos -->
+      <div class="category">
+        <div class="category-header cat-2">
+          2. Aplicaciones Prácticas de la IA en los Cursos
+        </div>
+        <div class="category-body">
+          <ul>
+            <li><a href="2/2-1.html">2-1: Cómo usar IA para crear materiales didácticos.</a></li>
+            <li><a href="2/2-2.html">2-2: Herramientas de IA para la evaluación automática.</a></li>
+            <li><a href="2/2-3.html">2-3: Uso de IA para la retroalimentación personalizada.</a></li>
+            <li><a href="2/2-4.html">2-4: Creación de chatbots educativos.</a></li>
+            <li><a href="2/2-5.html">2-5: IA para la gamificación en cursos virtuales.</a></li>
+            <li><a href="2/2-6.html">2-6: Herramientas de IA para la traducción y localización de contenidos.</a></li>
+            <li><a href="2/2-7.html">2-7: Uso de IA en la investigación académica.</a></li>
+            <li><a href="2/2-8.html">2-8: IA para la gestión de grandes volúmenes de datos (Big Data).</a></li>
+            <li><a href="2/2-9.html">2-9: Diseño de actividades interactivas con IA.</a></li>
+            <li><a href="2/2-10.html">2-10: IA y aprendizaje adaptativo.</a></li>
+            <li><a href="2/2-11.html">2-11: Uso de IA en la tutoría virtual.</a></li>
+            <li><a href="2/2-12.html">2-12: Creación de presentaciones y recursos visuales con IA.</a></li>
+            <li><a href="2/2-13.html">2-13: IA para la detección de plagio.</a></li>
+            <li><a href="2/2-14.html">2-14: Herramientas de IA para la colaboración en equipo.</a></li>
+            <li><a href="2/2-15.html">2-15: IA y realidad virtual/aumentada en la educación.</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Categoría 3: Gobernanza y Políticas de IA en la UNAD -->
+      <div class="category">
+        <div class="category-header cat-3">
+          3. Gobernanza y Políticas de IA en la UNAD
+        </div>
+        <div class="category-body">
+          <ul>
+            <li><a href="3/3-1.html">3-1: Políticas institucionales sobre el uso de IA.</a></li>
+            <li><a href="3/3-2.html">3-2: Derechos de autor y propiedad intelectual en el uso de IA.</a></li>
+            <li><a href="3/3-3.html">3-3: Responsabilidad en el uso de IA en la educación.</a></li>
+            <li><a href="3/3-4.html">3-4: Transparencia y explicabilidad de las decisiones de IA.</a></li>
+            <li><a href="3/3-5.html">3-5: Protocolos para el uso ético de IA.</a></li>
+            <li><a href="3/3-6.html">3-6: Normativas sobre privacidad de datos en la UNAD.</a></li>
+            <li><a href="3/3-7.html">3-7: Uso de IA en la evaluación de estudiantes.</a></li>
+            <li><a href="3/3-8.html">3-8: Cómo reportar problemas o sesgos en herramientas de IA.</a></li>
+            <li><a href="3/3-9.html">3-9: Colaboración entre profesores y departamentos de TI.</a></li>
+            <li><a href="3/3-10.html">3-10: Futuro de la IA en la UNAD: tendencias y desafíos.</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Categoría 4: Impacto Social y Ético de la IA -->
+      <div class="category">
+        <div class="category-header cat-4">
+          4. Impacto Social y Ético de la IA
+        </div>
+        <div class="category-body">
+          <ul>
+            <li><a href="4/4-1.html">4-1: Brecha digital y acceso a herramientas de IA.</a></li>
+            <li><a href="4/4-2.html">4-2: Impacto de la IA en el empleo y habilidades futuras.</a></li>
+            <li><a href="4/4-3.html">4-3: IA y equidad en la educación.</a></li>
+            <li><a href="4/4-4.html">4-4: Desafíos éticos en el uso de IA generativa.</a></li>
+            <li><a href="4/4-5.html">4-5: IA y la deshumanización de la educación.</a></li>
+            <li><a href="4/4-6.html">4-6: Cómo fomentar el pensamiento crítico en la era de la IA.</a></li>
+            <li><a href="4/4-7.html">4-7: IA y la responsabilidad social de la UNAD.</a></li>
+            <li><a href="4/4-8.html">4-8: Uso de IA para la inclusión de personas con discapacidad.</a></li>
+            <li><a href="4/4-9.html">4-9: IA y la diversidad cultural en la educación.</a></li>
+            <li><a href="4/4-10.html">4-10: IA y la sostenibilidad ambiental.</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Categoría 5: Innovación y Futuro de la IA en la UNAD -->
+      <div class="category">
+        <div class="category-header cat-5">
+          5. Innovación y Futuro de la IA en la UNAD
+        </div>
+        <div class="category-body">
+          <ul>
+            <li><a href="5/5-1.html">5-1: Tendencias emergentes en IA educativa.</a></li>
+            <li><a href="5/5-2.html">5-2: Cómo preparar a los estudiantes para un mundo con IA.</a></li>
+            <li><a href="5/5-3.html">5-3: Colaboración entre humanos y máquinas en la educación.</a></li>
+            <li><a href="5/5-4.html">5-4: IA y la personalización del aprendizaje.</a></li>
+            <li><a href="5/5-5.html">5-5: Proyectos piloto de IA en la UNAD: casos de éxito.</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Nota al pie -->
+    <div class="footer-note">
+      Las cartas han sido diseñadas por el grupo de investigación AequitasLab de la Escuela de Ciencias Básicas, Tecnología e Ingeniería.
+    </div>
+  </div>
+</body>
+</html>
